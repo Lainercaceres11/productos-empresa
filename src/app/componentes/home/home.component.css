@@ -1,0 +1,28 @@
+.container{
+    padding-top: 70px;
+}
+
+p{
+    line-height: 24px;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.parrafo-productos{
+    width: 200px;
+    margin-left: 18px;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}
+
+

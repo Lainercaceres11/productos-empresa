@@ -1,0 +1,40 @@
+
+<div class="container">
+    <h3 class="text-center">{{title}}</h3>
+    <div class="row">
+        <div class="col-lg-6">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dicta porro sequi quasi id corrupti consequatur
+                quos officia pariatur nisi unde, explicabo error dolor dignissimos, ipsam quia rem vitae culpa. Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Modi blanditiis ex animi. Repudiandae doloremque ipsam minus officiis ab,
+                inventore libero, iste illo architecto optio, ipsa omnis tempora fugiat odit possimus! Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Maxime eius ut odio aperiam assumenda itaque quis alias error, id deserunt,
+                repellendus reprehenderit, optio provident mollitia eveniet. Itaque voluptatum voluptatibus accusantium.</p>
+        </div>
+
+        <div class="col-lg-6">
+            <form action="" class="form-group">
+                <div class="mb-3">
+                    <input class="form-control form-control-lg" type="text" placeholder="Escriba su nombre" id="nombre" [(ngModel)]="nombre">
+            
+                </div>
+                <div class="mb-3">
+                    <input class="form-control form-control-lg" type="text" placeholder="Escriba su correo apellido" id="apellido" [(ngModel)]="apellido">
+            
+                </div>
+                <div class="mb-3">
+                    <input class="form-control form-control-lg" type="text" placeholder="Escriba su correo correo" id="correo" [(ngModel)]="correo">
+            
+                </div>
+            
+            
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" id="comentario" [(ngModel)]="comentario"></textarea>
+                </div>
+                <div class="mb-4">
+                    <button type="submit float-end" (click)="enviarData()">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

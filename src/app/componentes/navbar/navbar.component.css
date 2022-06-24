@@ -1,0 +1,17 @@
+.nav-link:hover{
+    background-color: rgb(102, 102, 116);
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    color: rgb(122, 122, 224);
+    padding: 20px;
+}
+
+.fa-phone, .fa-location-pin{
+    margin-left: 25px;
+}
